@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    border: solid #000;
+    border-width: 0px 1px 1px 1px;
+    padding: 32px 24px;
+}
+
+.header nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 16px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.header nav ul li:nth-child(odd) {
+    justify-self: end;
+}
+
+.header nav ul li:nth-child(even) {
+    justify-self: start;
+}
+
+@media (min-width: 667px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 26px 90px;
+    }
+
+    .header nav ul {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .header nav ul li a {
+        font-family: 'Academy Engraved LET', sans-serif;
+    }
+
+    .header button, .header h1 {
+        font-family: 'Academy Engraved LET', sans-serif;
+        font-weight: 400;
+    }
+    .header h1 span {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .header nav ul {
+        gap: 60px;
+    }
+}

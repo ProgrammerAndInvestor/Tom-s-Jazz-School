@@ -1,0 +1,12 @@
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: #000;
+    font-weight: 900;
+}
+
+@media (min-width: 1366px) {
+    .headline{
+        font-size: 4rem;
+    }
+}

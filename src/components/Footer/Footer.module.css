@@ -1,0 +1,70 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 16px 24px 32px;
+    border: solid #000;
+    border-width: 0px 1px;
+}
+
+footer header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 280px;
+}
+
+footer header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+footer nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #000;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer div label {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 28.13px;
+}
+
+footer div input {
+    max-width: 560px;
+    height: 48px;
+    padding: 16px;
+
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media (min-width: 667px) {
+    footer {
+        padding: 63px 90px 128px;
+        flex-direction: row;
+    }
+}

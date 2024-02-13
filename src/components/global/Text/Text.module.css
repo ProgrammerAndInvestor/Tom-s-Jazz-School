@@ -1,0 +1,12 @@
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: #000;
+    max-width: 368px;
+}
+
+@media (min-width: 1366px) {
+    .text{
+        font-size: 1.5rem;
+    }
+}
