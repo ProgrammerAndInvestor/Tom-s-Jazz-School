@@ -51,6 +51,7 @@ footer div label {
 
 footer div input {
     max-width: 560px;
+    width: 100vw;
     height: 48px;
     padding: 16px;
 
